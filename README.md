@@ -27,9 +27,22 @@ and **realized volatility** via:
 - Pooled OLS regressions with HAC standard errors.
 - Fama-MacBeth (1973) two-pass regressions.
 
-Results are presented in a Jupyter research report and an interactive
-Streamlit dashboard.
+## Figures
 
+### 1. Correlation structure of sentiment and equity features
+![Correlation matrix](data/correlation_matrix.png)
+
+### 2. Sector-level LM sentiment exposure
+![Sector sentiment by sector](data/sector_sentiment.png)
+
+### 3. OLS coefficients: return regression on sentiment + controls
+![OLS coefficients](data/ols_coefs.png)
+
+### 4. Distribution of LM net sentiment (Item 1A vs. MD&A)
+![LM net sentiment distributions](data/lm_sentiment_dist.png)
+
+### 5. Average LM sentiment over time vs. SPY
+![Sentiment over time](data/sentiment_ts.png)
 ---
 
 ## Architecture
