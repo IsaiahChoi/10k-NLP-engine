@@ -30,19 +30,19 @@ and **realized volatility** via:
 ## Figures
 
 ### 1. Correlation structure of sentiment and equity features
-![Correlation matrix](10k-nlp-sentiment-engine/data/correlation_matrix.png)
+![Correlation matrix](data/correlation_matrix.png)
 
 ### 2. Sector-level LM sentiment exposure
-![Sector sentiment by sector](10k-nlp-sentiment-engine/data/sector_sentiment.png)
+![Sector sentiment by sector](data/sector_sentiment.png)
 
 ### 3. OLS coefficients: return regression on sentiment + controls
-![OLS coefficients](10k-nlp-sentiment-engine/data/ols_coefs.png)
+![OLS coefficients](data/ols_coefs.png)
 
 ### 4. Distribution of LM net sentiment (Item 1A vs. MD&A)
-![LM net sentiment distributions](10k-nlp-sentiment-engine/data/lm_sentiment_dist.png)
+![LM net sentiment distributions](data/lm_sentiment_dist.png)
 
 ### 5. Average LM sentiment over time vs. SPY
-![Sentiment over time](10k-nlp-sentiment-engine/data/sentiment_ts.png)
+![Sentiment over time](data/sentiment_ts.png)
 
 ## Architecture
 
